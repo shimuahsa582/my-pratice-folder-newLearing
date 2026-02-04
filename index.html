@@ -73,34 +73,71 @@
         allowfullscreen
       ></iframe>
     </main>
-
-    <div name="ListItem ">
-      <ul>
-        <li>Shimu</li>
-        <li>Ahsik</li>
-        <li>Robin</li>
-        <li>Sharmin</li>
-        <li>Tahmina</li>
-      </ul>
-      <ol>
-        <li>Cha</li>
-        <li>Coffce</li>
-        <li>Milk</li>
-        <li>Nut</li>
-        <li>Mango</li>
-      </ol>
-    </div>
-
-    <div id="logIn">
+    <!-- Login Form Create Start -->
+    <section id="logIn">
       <form action="">
-        <input type="text" /><br />
-        <input type="email" name="email" id="email" /><br />
-        <input type="password" name="password" id="password" /><br />
-        <input type="radio" name="job" id="job" /><br />
-        <input type="checkbox" name="gender" id="gender" /><br />
-        <input type="checkbox" name="male" id="male" /><br />
-        <input type="checkbox" name="female" id="female" /><br />
+        <label for="name"
+          >Enter Name :
+          <input id="name" type="text" placeholder="Your Name" />
+        </label>
+        <label for="email"
+          >Enter Email:
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+        </label>
+        <label for="password "
+          >Enter Password:
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Your Password"
+          />
+        </label>
+        <fieldset>
+          <legend>Pick One :</legend>
+          <label for="gender">
+            <input type="radio" name="gender" id="male" />Male
+          </label>
+          <label for="gender">
+            <input type="radio" name="gender" id="female" />Female
+          </label>
+          <label for="gender">
+            <input type="radio" name="gender" id="both" />Both
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Choice One:</legend>
+          <label for="cheekbox">
+            <input type="checkbox" name="relasion " id="muslim" />Muslim
+          </label>
+          <label for="cheekbox">
+            <input type="checkbox" name="relasion " id="hindu" />Hindu
+          </label>
+          <label for="cheekbox">
+            <input type="checkbox" name="relasion " id="buddo" />Buddo
+          </label>
+          <label for="cheekbox">
+            <input type="checkbox" name="relasion " id="khristan" />Khristan
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Instraction</legend>
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </fieldset>
+        <input type="reset" value="reset" />
+        <input type="submit" value="submit" />
       </form>
-    </div>
+    </section>
+    <!-- Login Form Create Start -->
   </body>
 </html>

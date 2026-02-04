@@ -55,3 +55,37 @@
   font-size: 50px;
   padding: 20px 0px;
 }
+/* Login Form Start */
+#logIn{
+  background-color: aliceblue;
+  height: 500px;
+}
+label{
+  display: block;
+}
+input[type='text'] {
+    display: inline-block;
+    border: none;
+    width: 300px;
+    padding: 10px 0px;
+    font-size: 10px;
+}
+input#email {
+    width: 300px;
+    padding: 10px 0px;
+    border: none;
+    margin-top: 10px;
+    font-size: 10px;
+}
+input#password {
+    width: 300px;
+    padding: 10px 0px;
+    border: none;
+    margin-top: 10px;
+    font-size: 10px;
+}
+fieldset {
+    width: 500px;
+    border: none;
+    margin-bottom: 10px;
+}

@@ -55,6 +55,30 @@
   font-size: 50px;
   padding: 20px 0px;
 }
+/* create table start */
+#tableCreate{
+  margin-bottom: 60px;
+}
+caption{
+  text-align: center;
+  font-size: 40px;
+  margin: 15px 0px;
+}
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+th {
+    font-size: 25px;
+    color: #7c7ca3;
+    font-weight: 900;
+}
+td , th{
+    border: 1px solid #edebeb;
+    padding: 10px 20px;
+    text-align: center;
+  
+}
 /* Login Form Start */
 #logIn{
   background-color: aliceblue;

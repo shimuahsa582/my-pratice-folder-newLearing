@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/home.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/position.css" />
     <title>My First Website</title>
   </head>
 
   <body>
-    <h1 id="heading">Welcome To My Website</h1>
-    <div class="imgSet"></div>
+    <!-- header part start -->
+    <header>
+      <h1 id="heading">Welcome To My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="vedio.html">Video</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="position.html">Position</a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </nav>
+      <div class="imgSet"></div>
+    </header>
+    <!-- header part end -->
+    <!-- article part start -->
     <article class="artical">
       Lorem ipsum dolor sit amet, consectetur adipisicing Laborum, facilis
       consequatur. Nulla expedita doloribus sapiente, quia ipsam tempore tenetur
@@ -49,7 +64,8 @@
       <br />
       <button>Read More</button>
     </article>
-    <!-- audio and video add  -->
+    <!-- article part start -->
+    <!-- audio and video add start  -->
     <main class="mediaAdded">
       <h3>Please play this</h3>
       <audio controls src="assets/goat.mp3"></audio>
@@ -73,6 +89,7 @@
         allowfullscreen
       ></iframe>
     </main>
+    <!-- audio and video add end  -->
     <!-- create table start  -->
     <main id="tableCreate">
       <table>
@@ -133,6 +150,7 @@
       </table>
     </main>
     <!-- create table end  -->
+
     <!-- Login Form Create Start -->
     <section id="logIn">
       <form action="">
@@ -186,7 +204,7 @@
           </label>
         </fieldset>
         <fieldset>
-          <legend>Instraction</legend>
+          <legend>Instraction:</legend>
           <textarea
             name="textarea"
             id="textarea"
